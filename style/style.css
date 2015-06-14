@@ -91,7 +91,7 @@ ol li {
 #logo { 
   width: 890px;
   position: relative;
-  height: 170px;
+  height: 150px;
   background: url(logo.jpg) no-repeat;
 }
 
@@ -123,12 +123,12 @@ ol li {
 
 #menubar { 
   width: 890px;
-  height: 39px;
-  padding: 8px 0 0 0;
+  height: 43px;
+  /*padding: 0px 0 0 0;*/
   position: relative;
   z-index: 1;
   float: right;
-  background: #444;
+  margin-top: -43px;
 }
 
 #header_tabs {
@@ -148,6 +148,7 @@ ul#menu li {
   margin: 8px 0 0 0;
   padding: 0 0 0 6px;
   list-style: none;
+  color: #FFF;
 }
 
 ul#menu li a { 
@@ -158,7 +159,7 @@ ul#menu li a {
   float: left; 
   height: 20px;
   text-decoration: none; 
-  padding: 9px 22px 5px 16px;
+  padding: 10px 22px 5px 16px;
   text-align: center;
   color: #FFF;
   border: 0;
@@ -167,7 +168,6 @@ ul#menu li a {
 ul#menu li a:hover { color: #6B8E23; }
 
 ul#menu li.selected { 
-  margin: 8px 0 0 0;
   background: url(tabs.png) no-repeat;
 }
 
