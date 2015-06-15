@@ -168,7 +168,7 @@ ul#menu li a {
 ul#menu li a:hover { color: #6B8E23; }
 
 ul#menu li.selected { 
-  background: url(tabs.png) no-repeat;
+  background: #6B8E23; /*url(tabs.png) no-repeat;*/
 }
 
 ul#menu li.selected a:hover { color: #FFF; }
